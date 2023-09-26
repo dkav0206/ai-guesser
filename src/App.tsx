@@ -20,7 +20,7 @@ function App() {
   const [isPlaying, setIsPlaying] = useState(true);
 
   useEffect(() => {
-    audio.volume = audioVolume/10;
+    if (audioVolume) audio.volume = audioVolume/10;
     isPlaying ? audio.play() : audio.pause();
     audio.loop = true
   }, [isPlaying, audioVolume]);
