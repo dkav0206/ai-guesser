@@ -1,0 +1,45 @@
+.footerComponent{
+    position: fixed;
+    background-color: #04D9FF;
+    width: 100%;
+    height: 100%;
+    top: calc(100% - 10rem);
+    border-radius: 5rem;
+    cursor: pointer;
+    padding: 2rem;
+    transition: all 0.5s;
+
+
+    h1{ 
+        transition: all 0.5s;
+        margin: 0 3rem;
+        position: absolute;
+        transform: translateX(0%);
+        right: 0%;
+        font-size: 6rem;
+    }
+    
+    .footer-description{
+        margin-top: 10rem;
+        display: flex;
+        justify-content: center;
+        h2{
+            margin: 5rem;
+            font-size: 6rem;
+        }
+    }
+
+}
+
+.activated{ 
+    top: 10%;
+    h1{ 
+        margin: 0;
+        white-space: nowrap;
+        transform: translateX(50%);
+        right: 50%; 
+    }
+
+}
+
+
