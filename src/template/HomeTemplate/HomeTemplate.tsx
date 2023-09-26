@@ -2,7 +2,6 @@
 import {Suspense} from 'react'
 import {Outlet, useLocation} from 'react-router-dom'
 
-
 //components
 import { useScrollTop } from "../../hooks/useScrollTop"
 import { SkeletonHome } from '../../components/Skeleton/Skeleton'
